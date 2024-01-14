@@ -21,13 +21,13 @@ will return:
 
 will return
 
-[1, [2], 3]
+`[1, [2], 3]`
 
 `unnester.ns([1, [2], 3], dim_end=2, strt_l=[], rtn_l=[], flag_l=[])`
 
 will return
 
-[1, 2, 3]
+`[1, 2, 3]`
 
 Here, we are forced to declare the list parameters in the function call because if not declared, it will take their last value. 
 This is the case for python 3.11.6.
